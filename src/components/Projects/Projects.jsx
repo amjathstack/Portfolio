@@ -62,7 +62,7 @@ function Projects() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   return (
-    <div id="projects" className="py-40">
+    <div id="projects" className="py-30">
       <h1 className="text-3xl font-semibold text-center">
         Projects<span className="text-indigo-600">.</span>
       </h1>
