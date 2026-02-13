@@ -63,9 +63,14 @@ function Projects() {
 
   return (
     <div id="projects" className="py-30">
-      <h1 className="text-3xl font-semibold text-center">
-        Projects<span className="text-indigo-600">.</span>
+
+      <h1 className="text-3xl font-semibold text-center mx-auto">
+        Projects<span className="text-[40px] text-indigo-600">.</span>
       </h1>
+
+      <p className="text-sm text-slate-500 text-center mt-2 max-w-md mx-auto">
+        A showcase of my work featuring modern, scalable, and real world web applications.
+      </p>
 
       <div className="flex flex-wrap justify-center gap-10 mt-16">
         {projects.map((item, index) => (

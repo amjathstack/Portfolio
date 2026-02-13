@@ -11,7 +11,7 @@ const AboutMe = () => {
             </h1>
 
             <p className="text-sm text-slate-500 text-center mt-2 max-w-md mx-auto">
-                Everything you need to manage, track, and grow your finances, securely and efficiently.
+                Passionate full stack developer dedicated to building clean, responsive, and user-friendly web experiences.
             </p>
 
             <div className="mt-20 max-w-6xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
