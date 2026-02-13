@@ -1,5 +1,4 @@
 import Image from "next/image"
-import lms from "../../src/assets/lms-thum.png"
 
 export default function ProjectCard({ data, onClick }) {
     return (

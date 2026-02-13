@@ -43,7 +43,7 @@ const AboutMe = () => {
                     <div>
                         <h2 className="text-xl font-semibold text-gray-800 mb-3">Skills</h2>
                         <div className="flex flex-wrap gap-2">
-                            {["React", "Next.js", "Redux", "TailwindCSS", "Node.js", "MongoDB", "Authentication", "NextAuth", "Express.js", "Postgresql", "Javascript", "TypeScript", "Prisma ORM"].map(skill => (
+                            {["React", "Next.js", "Redux", "TailwindCSS", "Node.js", "MongoDB", "Authentication", "NextAuth", "Express.js", "Postgresql", "Javascript", "TypeScript", "Prisma ORM", "Cloudinary"].map(skill => (
                                 <span
                                     key={skill}
                                     className="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium hover:bg-indigo-200 transition"
