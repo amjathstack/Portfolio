@@ -16,7 +16,7 @@ export default function ProjectDetailsCard({ onClose, show, data }) {
 
     return (
         <div className="absolute flex sm:p-5 items-center justify-center top-0 left-0 w-full h-[100vh] bg-white/25 z-70 fixed">
-            <div className="relative px-5 w-full border rounded-[10px] border-gray-200 p-2 bg-white max-w-100 sm:max-w-120 min-h-90 h-120 sm:150 max-h-200">
+            <div className="relative px-5 w-full border rounded-[10px] border-gray-200 p-2 bg-white max-w-100 sm:max-w-120 min-h-90 h-150 max-h-200">
                 <X onClick={() => onClose(null)} className="absolute cursor-pointer top-4 right-4 text-gray-600" />
                 <h1 className="text-[13px] sm:text-[16px] font-semibold text-gray-600 mt-5 py-3">{data.title}</h1>
                 <p className="text-[12px] sm:text-[14px] text-gray-600 pr-5">{data.description}</p>
